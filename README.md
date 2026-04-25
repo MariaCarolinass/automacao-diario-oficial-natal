@@ -2,12 +2,7 @@
 
 Este projeto automatiza a coleta de PDFs do **Diário Oficial de Natal (DOM)**, faz upload para serviços de armazenamento externo e armazena informações em um **banco de dados PostgreSQL**, disponibilizando uma **API FastAPI** para consulta.
 
-**Acesse:** 
-
-- https://automacao-selenium.onrender.com/
-- https://automacao-selenium.onrender.com/files/?month=7&year=2025 (consultar um mês/ano específico)
-
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 .
@@ -78,7 +73,7 @@ DATABASE_URL=postgresql+psycopg2://admin:123@db:5432/bd
 DOWNLOAD_DIR=./downloads
 ```
 
-## 🚀 Executando Localmente
+## Executando Localmente
 
 ### 1. Rodando a API
 ```bash
@@ -91,7 +86,7 @@ Acesse no navegador: `http://localhost:8000/`
 python -m scripts.run
 ```
 
-## 🐳 Docker
+## Docker
 
 ### 1. Build e Up
 ```bash
@@ -109,7 +104,7 @@ docker-compose exec -e PYTHONPATH=/app api python -m scripts.run
 - Listar arquivos: `http://localhost:8000/files/`
 - Filtrar arquivos por mês/ano: `http://localhost:8000/files/?month=7&year=2025`
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.11** – Linguagem principal do projeto.
 - **FastAPI** – Framework para construir a API REST.
@@ -122,7 +117,7 @@ docker-compose exec -e PYTHONPATH=/app api python -m scripts.run
 - **python-dotenv** – Gerenciamento de variáveis de ambiente.
 - **Xvfb** – Execução headless do Selenium em containers Linux.
 
-## ✅ Boas práticas aplicadas
+## Boas práticas aplicadas
 
 - Separação de responsabilidades (automation, scripts, api)
 - Configuração via `.env`
