@@ -30,7 +30,7 @@ Este projeto automatiza a coleta de PDFs do **Diário Oficial de Natal (DOM)**, 
 └── .env
 ```
 
-## ⚙ Funcionalidades
+## Funcionalidades
 
 1. **Automação DOM**
    - Seleciona mês e ano do DOM de Natal.
@@ -50,7 +50,7 @@ Este projeto automatiza a coleta de PDFs do **Diário Oficial de Natal (DOM)**, 
    - Armazena registros dos PDFs coletados.
    - Configurável via `.env`.
 
-## ⚙️ Configuração
+## Configuração
 
 ### 1. Dependências
 
