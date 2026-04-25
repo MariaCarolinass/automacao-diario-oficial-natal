@@ -1,6 +1,6 @@
-# Diário Oficial de Natal - Automação e API
+# Automação Diário Oficial de Natal
 
-Este projeto automatiza a coleta de PDFs do **Diário Oficial de Natal (DOM)**, faz upload para serviços de armazenamento externo e armazena informações em um **banco de dados PostgreSQL**, disponibilizando uma **API FastAPI** para consulta.
+Automação para coleta, processamento e monitoramento do Diário Oficial de Natal (RN), transformando publicações em dados estruturados para análise, busca e geração de alertas.
 
 ## Estrutura do Projeto
 
